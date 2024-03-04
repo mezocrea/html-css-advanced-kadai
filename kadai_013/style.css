@@ -30,6 +30,7 @@ body {
 }
 
 #menu-sp {
+  display: block;
   float: right;
   padding: 0;
 }
@@ -84,9 +85,6 @@ body {
 }
 
 
-
-
-
 /*================
 PC用のスタイル 
 =================*/
@@ -106,6 +104,7 @@ PC用のスタイル
 
   /* ナビゲーションのレイアウト */
   #nav-pc {
+    display: block;
     text-align: right;
     font-size: 14px;
     padding-top: 15px;
@@ -132,5 +131,9 @@ PC用のスタイル
 
   #nav-pc>a:active {
     color: #0d0d0d;
+  }
+
+  #menu-sp {
+    display: none;
   }
 }
